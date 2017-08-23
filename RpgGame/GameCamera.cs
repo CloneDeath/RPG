@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using Mogre;
 
@@ -21,8 +22,8 @@ namespace Gra
 			if (!Engine.Singleton.HumanController.HUDMenu.IsVisible)
 			{
 				Vector3 offset =
-				Character.Node.Orientation * (-Vector3.UNIT_Z +
-				  (Vector3.UNIT_Y * (float)System.Math.Tan(Angle.ValueRadians))
+				Character.Node.Orientation * (-Vector3.UnitZ +
+				  (Vector3.UnitY * (float)System.Math.Tan(Angle.ValueRadians))
 				  ).NormalisedCopy * Distance;
 
 				Vector3 head = Character.Node.Position + Character.Profile.HeadOffset;

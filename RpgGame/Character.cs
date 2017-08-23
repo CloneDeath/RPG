@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
+using Gra.DecTree;
 using Mogre;
 using MogreNewt;
 
@@ -262,8 +264,6 @@ namespace Gra
             AnimBlender.SetEntity(Entity);
 
             ActiveQuests = new QuestManager();
-            //Quests = new List<Quest>();
-            //QuestsDone = new List<Quest>();
 
             _Statistics = Profile.Statistics.statistics_Clone();
 

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Mogre;
-using MogreNewt;
+﻿using System.Numerics;
 
 namespace Gra
 {
@@ -16,7 +11,7 @@ namespace Gra
     public class Activity
     {
         public Vector3 v3;
-        public String s;
+        public string s;
         public long i;
         public long i2;
         public bool b;

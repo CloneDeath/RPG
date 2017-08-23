@@ -1,50 +1,11 @@
-﻿/*
-
-
-
-				\   |   /
-				 \  |  /
-				  \ | /
-		                _________
-			       /    	 \
-			      /           \
-			     /             \
-			    /  ___     ___  \
-			   |                 |
-			   |  |   |   |   |  |
-			   |  | - |   | - |  |
-			   |  |   |   |   |  |
-		\|/        |   ___     ___   |
-		 |         |                 |     \|/
-		  \	   |   \  /   \	 /   |      |
-		   \_______|    \/     \/    |     /
-			   |                 |____/
-			   |                 |
-			   \                 \
-			    \                 \ 
-                             \                 \
-                              \                	|
-	                       \_______________/
-				   /      \
-				  /        \
-				 /          \
-				 |           |
-			        _|           |_
-
-
-MR. Poryciak!!!
-
-
-*/
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using Mogre;
 using System.IO;
+using System.Numerics;
 using System.Xml;
 
 namespace Gra
